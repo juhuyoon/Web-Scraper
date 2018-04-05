@@ -1,8 +1,17 @@
 {
-  "name": "Web-Scraper",
+  "name": "web-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "scraping articles together to form a website!",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.12",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,20 +19,16 @@
     "type": "git",
     "url": "git+https://github.com/juhuyoon/Web-Scraper.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webscraper",
+    "mongodb",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Junghoon Yoon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juhuyoon/Web-Scraper/issues"
   },
-  "homepage": "https://github.com/juhuyoon/Web-Scraper#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^5.0.12",
-    "nodemon": "^1.17.3",
-    "request": "^2.85.0"
-  }
+  "homepage": "https://github.com/juhuyoon/Web-Scraper#readme"
 }
