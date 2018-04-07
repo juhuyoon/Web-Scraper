@@ -1,3 +1,4 @@
+//Imports
 const express = require('express');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
@@ -5,6 +6,7 @@ const mongoose = require('mongoose');
 const request = require('request');
 const cheerio = require('cheerio');
 
+//Setting up variables, default ports
 let PORT = process.env.PORT || 8080;
 let app = express();
 
