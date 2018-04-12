@@ -1,15 +1,37 @@
+<!-- Nav Bar -->
 <nav>
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <div class="nav-wrapper" style="border-bottom: 1px solid black;">
+        <ul class="left hide-on-med-and-down">
+            <a href="#" class="brand-logo center" style="position">NPR News
+                <i class="fa fa-newspaper-o material-icons" style="height:auto;" aria-hidden="true"></i>
+            </a>
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li class="modal-trigger savedArticles" href="#saveModal">
+                <a>Saved Articles</a>
+            </li>
+        </ul>
+        <ul class="hide-on-med-and-down valign-wrapper right">
             <li>
-                <a href="sass.html">Sass</a>
+                <a class="waves-effect halfway-fab waves-effect waves-light hover searchArticle right"> Scrape
+                    <i class="material-icons right">add</i>
+                </a>
+            </li>
+        </ul>
+        <ul class="left hide-on-large-only">
+            <li class="modal-trigger savedArticles" href="#saveModal">
+                <a>Saved Articles</a>
             </li>
             <li>
-                <a href="badges.html">Components</a>
+                <i class="fa fa-newspaper-o material-icons" style="height:auto;" aria-hidden="true"></i>
             </li>
+        </ul>
+        <ul class="hide-on-large-only valign-wrapper right">
             <li>
-                <a href="collapsible.html">JavaScript</a>
+                <a class=" waves-effect halfway-fab waves-effect waves-light hover searchArticle right">
+                    <i class="material-icons">add</i>
+                </a>
             </li>
         </ul>
     </div>

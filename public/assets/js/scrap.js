@@ -140,7 +140,7 @@ $(document).ready(function () {
 
                     fetch("/api/deleteArticle", {
                         method: 'POST',
-                        headers: {
+                        headers:
                             'Content-Type': 'application/json'
                         },
                         body: JSON.stringify(sessionArticle)
